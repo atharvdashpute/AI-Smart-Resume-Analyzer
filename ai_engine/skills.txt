@@ -1,0 +1,10 @@
+python
+java
+react
+node
+express
+mongodb
+machine learning
+docker
+aws
+flask
