@@ -1,20 +1,28 @@
+# AI Smart Resume Analyzer & Job Matcher
 
----
+## 🚀 Overview
+An AI-powered web application that analyzes resumes and matches them with job descriptions using NLP techniques.
 
-# 🧾 RESUME ENTRY (FINAL)
+## 🛠️ Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- AI Engine: Python (Flask, NLP)
+- Database: MongoDB (Optional)
 
-> **AI Smart Resume Analyzer & Job Matcher**  
-> • Developed an AI-powered resume analysis system using NLP to match resumes with job descriptions.  
-> • Implemented skill extraction, match scoring, and skill gap analysis using Python and machine learning techniques.  
-> • Built a full-stack application using React, Node.js, Express, and Flask.
+## ✨ Features
+- Resume PDF upload
+- Skill extraction using NLP
+- Job matching using TF-IDF & Cosine Similarity
+- Resume match score
+- Skill gap analysis
 
----
+## ⚙️ How It Works
+1. User uploads resume and job description
+2. Resume is parsed using Python NLP
+3. Skills are extracted and matched
+4. AI calculates resume-job compatibility score
 
-## 🔥 NEXT?
-I can now:
-✅ Add MongoDB  
-✅ Deploy live (Render + Vercel)  
-✅ Add ATS scoring  
-✅ Insert directly into your resume PDF  
-
-Just say: **“Next step”** 🚀
+## ▶️ Installation
+```bash
+npm install
+pip install -r requirements.txt
